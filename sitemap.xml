@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  <url>
+    <loc>https://angular-entwickler-koeln.de/</loc>
+    <lastmod>2025-06-12T13:54:09+00:00</lastmod>
+    <changefreq>daily</changefreq>
+  </url>
+  <url>
+    <loc>https://angular-entwickler-koeln.de</loc>
+    <priority>1.0</priority>
+  </url>
+  <url>
+    <loc>https://angular-entwickler-koeln.de/impressum.html</loc>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://angular-entwickler-koeln.de/datenschutz.html</loc>
+    <priority>0.5</priority>
+  </url>
+</urlset>
