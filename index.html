@@ -35,7 +35,15 @@
     <link rel="icon" href="https://angular-entwickler-koeln.de/favicon1.ico" type="image/x-icon">
 
     <!-- Theme Color -->
-    <meta name="theme-color" content="#c62828">
+    <meta name="theme-color" content="#0f172a">
+    
+    <!-- Safari-specific -->
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+    
+    <!-- Additional mobile theming -->
+    <meta name="msapplication-navbutton-color" content="#0f172a">
+    <meta name="apple-mobile-web-app-title" content="Oliver Kießler">
 
     <style>
         :root {
@@ -315,14 +323,32 @@
             .name {
                 font-size: 2rem;
             }
+            
+            .title {
+                font-size: 1rem;
+                letter-spacing: 1px;
+                margin-bottom: 1.5rem;
+            }
+            
+            .description {
+                font-size: 1rem;
+                margin-bottom: 1.5rem;
+            }
 
             .stats {
                 grid-template-columns: 1fr;
                 gap: 1rem;
             }
-
+            
             .tech-grid {
                 grid-template-columns: repeat(2, 1fr);
+                gap: 0.8rem;
+                margin: 1.5rem 0;
+            }
+            
+            .tech-item {
+                padding: 0.8rem;
+                font-size: 0.85rem;
             }
 
             .footer {
@@ -333,6 +359,62 @@
                 left: auto;
                 justify-content: center;
                 flex-wrap: wrap;
+            }
+        }
+        
+        @media (max-width: 480px) {
+            .container {
+                padding: 1rem;
+            }
+            
+            .hero-card {
+                padding: 1.5rem;
+                margin: 0.5rem;
+            }
+            
+            .name {
+                font-size: 1.8rem;
+            }
+            
+            .title {
+                font-size: 0.9rem;
+                letter-spacing: 0.5px;
+            }
+            
+            .description {
+                font-size: 0.95rem;
+            }
+            
+            .tech-grid {
+                gap: 0.6rem;
+                margin: 1rem 0;
+            }
+            
+            .tech-item {
+                padding: 0.7rem 0.5rem;
+                font-size: 0.8rem;
+            }
+            
+            .stats {
+                gap: 0.8rem;
+                margin: 1.5rem 0;
+            }
+            
+            .stat {
+                padding: 0.8rem;
+            }
+            
+            .stat-number {
+                font-size: 1.5rem;
+            }
+            
+            .stat-label {
+                font-size: 0.8rem;
+            }
+            
+            .cta-button {
+                padding: 0.9rem 1.8rem;
+                font-size: 1rem;
             }
         }
 
